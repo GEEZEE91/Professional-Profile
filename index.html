@@ -3,7 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gina Zivkovic | Portfolio</title>
   <link rel="stylesheet" href="./assets/reset.css" />
   <link rel="stylesheet" href="./assets/style.css" />
@@ -12,74 +13,144 @@
 <body>
 
     <header class="header">
-        <h1>Gina <span class="last-name">Zivkovic</span></h1>
-        <nav>
+        
+        <nav class="navbar">
+            <Logo> <h1>Gina <span class="last-name">Zivkovic</span></h1></Logo>
             <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-portfolio">My Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
+                <input type="checkbox" id="checkbox_toggle" />
+                <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                <div class="menu">
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#my-portfolio">My Portfolio</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+            </div>
             </ul>
         </nav>
+<!-- Hamburger menu when page display reduced-->
+
+
+
+
     </header>
-    <div id="banner"> </div>
-    <main>
+    
+    <section class="hero">
+    
+            
+                
+        <cta-btn class="download-btn"> 
+            <a href="./assets/resume/resume.pdf" download='resume'> My Resume 
+            </a>   
+        </cta-btn>
+     
 
-         <article  class="about-me"> 
-             <section id="about-me" class="about-me">
-                <h2>About Me</h2>
-                <p> dfsgjfshgjhhhhhhhhhhhhhhh
+
+</section>
+
+    <main class="main">
+
+
+     
+        
+         <about-me id="about-me" class="about-me"> 
+            <div class= "about-me box", id="box-1">
+               <h2>ABOUT ME </h2>
+                <img src="./assets/images/GinaZivkovic.jpg" alt="Profile Picture Gina Zivkovic"/>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <p>I work as a Finance Manager at a large steel fabrication company 
+                that has branched into the hospitality industry in the last year and purchased several hotel & gaming establishments.
+                I have a Bachelor's Degree in Accounting and Finance and have worked in relevant accounting and business roles for the last 11 years.</p>
+                
+                <p> I have worked my way up from accounts assistant to chief financial manager.
+                the bookkeeping role while I worked full time while completing my  and have witnessed the have completely automated
+                several accounts office roles such as data entry and payroll  and possibly consider a career change.</p>
+                
+
+            <p>I am in the process of completing a Software Programming Bootcamp at UWA that focuses on both front end and back end
+            languages and applications.</p>
+
+            <p>I aim to develop my software programming skills further and combine them with my business background
+                to develop highly customised business solutions. Helping small and medium-sized businesses 
+                implement highly targeted solutions that meet their distinct functionality
+                requirements, improve productivity, and streamline processes with software programming.
+              </p>
+            </div>   
+        </about-me>
+
+
+
+
+        <article>
+        
+            <div id="my-portfolio" class="work-wrapper">
+                <div class="work-grid-container">
+                    <div class="work-item work-title">
+              
+                        <h3> Work Portfolio </h3>
+                    </div>
+                    <div class="work-item-project challenge-1-refactor">
+                        <span class="span-background">
+                            
+                            <h4><a href="https://github.com/GEEZEE91/W1-HTML-CSS--Challenge"> 
+                                Horiseon Services</h4>
+                                <p><a href="https://github.com/GEEZEE91/W1-HTML-CSS--Challenge"> HTML & CSS Refactoring</a></p>
+                        </span>
+                    </div>
+
+                    <div class="work-item-project java image">
+
+                        <span class="span-background">
+                               
+                            <h4> <a href="https://github.com/GEEZEE91/JavaScript-Rock-Paper-Scissors-Game.git"> JavaScript Game </a> </h4>
+                           
+                                
+                                <p><a href="https://github.com/GEEZEE91/JavaScript-Rock-Paper-Scissors-Game"> Rock, Paper, Scissors </a></p> </span>
+                            </span>
+                    </div>                                    
                     
-                    h
-                </p> 
-            </section>
-        </article>
+                    <div class="work-item-project placeholder1">
+                        <div class="span-background">
+                        
+                             <h4>
+                                <a href="https://github.com/GEEZEE91/Mini-Project-CSS-Snippet-Cheat-Sheet"> Advance CSS Snippet</a>
+                                </h4>
+                            
+                                <p> <a href="https://github.com/GEEZEE91/Mini-Project-CSS-Snippet-Cheat-Sheet"> Advance CSS Snippet Cheat Sheet </a></p>
+                            
+                            </span>
+                    </div>
 
-        <article id="my-portfolio" class="portfolio">
-            <h2>My Portfolio</h2>
-            <img src="./assets/images/Horiseon.png" alt="Horiseon Refactoring Code" />
-            <img src="./assets/images/" alt="Portfolio" />
-            <img src="./assets/images/" alt="Java Script" />
+            
+                </div>
+                    
         </article>
+    
 
-        <section id="contact-me" class="contact-me">
-            <section class="contact-me-box">
-                <h2 >Email</h2>
-                <img src="./assets/images/email.png" alt="Email Icon" />
-                <p>
-                    <a href="mailto:gina.zivkovic91@gmail.com"> gina.zivkovic91@gmail.com </a> 
-                </p>
-                <br>
-            </section>
-            <section class="contact-me-box">
-                <h2>Phone</h2>
-                <img src="./assets/images/phone.png" alt="Phone Icon" />
-                <p>
-                    <a>
-                    0450 102 213 
-                </a>
-            </p>
-                <br>
-            </section>
-            <section class="contact-me-box">
-                <h2>LinkedIn</h2>
-                <img src="./assets/images/LinkedIn.png" alt="LinkedIn Icon" />
-                <p>
-                    <a href="https://au.linkedin.com/in/gina-zivkovic?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn </a>
-                </p>
-                <br>
-            </section>
-        </section>
+        <Contact id="contact-me" class="contact-me">
+            <email class="contact-me-box">
+               
+                <h3><a href="mailto:gina.zivkovic@gmail.com"> gina.zivkovic@gmail.com </a>
+                </h3>   
+                <a href="mailto:gina.zivkovic@gmail.com"><img src="./assets/images/email.png" alt="Email Icon"></a>
+            </email>
+            <github class="contact-me-box">
+                <h3><a href="https://github.com/GEEZEE91">GitHub </a></h3>
+                <a href="https://github.com/GEEZEE91"><img src="./assets/images/github.png" alt="GitHub Icon">
+            </github>
+            <LinkedIn class="contact-me-box">
+                <h3><a href="https://www.linkedin.com/in/gina-zivkovic/">LinkedIn</a> </h3>
+             <a href="https://www.linkedin.com/in/gina-zivkovic/"> <img src="./assets/images/LinkedIn.png" alt="LinkedIn Icon"></a>
+            </LinkedIn>
+        </Contact>
+
     </main>
   
     <footer class="footer">
-      <h3>Made with <span role="img" aria-label="heart">❤️</span></h3>
+      <h4>Made with <span role="img" aria-label="heart">❤️</span> & CSS</h4>
     </footer>
+
   </body>
   
   </html>
