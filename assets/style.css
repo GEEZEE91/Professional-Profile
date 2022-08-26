@@ -133,7 +133,7 @@ input[type=checkbox]{
     height: 175px;
     width: fit-fit-max;
     margin-bottom: 0px;
-    background-image: url("./images/banner.png");
+    background-image: url("./images/Banner.png");
     background-size: cover;
     background-position: center;
 }
