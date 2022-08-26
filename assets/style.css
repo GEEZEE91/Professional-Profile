@@ -318,13 +318,14 @@ input[type=checkbox]{
 .contact-me img {
   align-content: left;
   margin-top: 15x;
-  max-width: 100px;
+  max-width: 60px;
   padding: 10px;
   margin-right: 10px;
-  display:flex
-  flex-wrap: wrap;    
+  display:flex;
+  flex-wrap: wrap;
 }
-a{
+
+.contact me a{
   color: #055c5c;
   font-weight: 500;
 }
