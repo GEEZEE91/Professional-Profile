@@ -2,7 +2,6 @@
     --outer-space: #65064A;
     --Wisteria: #944c96f3;
     --GreenWhite: #E7E9DF;
-
     --graynurse: #e1e7e4;
     --turquoise: #97cdcf;
     --bluelagoon: #038289;
@@ -82,9 +81,11 @@ p {
   border-radius: 5px;
   transition: 0.3s ease;
  }
+
  .menu li {
   padding: 5px 14px;
  }
+
  /* DROPDOWN MENU */
  
  li {
@@ -94,6 +95,7 @@ p {
  .services {
   position: relative; 
  }
+
  .dropdown {
   background-color: rgb(1, 139, 139);
   padding: 1em 0;
@@ -102,26 +104,30 @@ p {
   border-radius: 8px;
   top: 35px;
  }
+
  .dropdown li + li {
   margin-top: 10px;
  }
+
  .dropdown li {
   padding: 0.5em 1em;
   width: 8em;
   text-align: center;
  }
+
  .dropdown li:hover {
   background-color: #4c9e9e;
  }
+
  .services:hover .dropdown {
   display: block;
  }
-
 
 /* CHECKBOX HACK */
 input[type=checkbox]{
   display: none;
  } 
+
 /*HAMBURGER MENU*/
 .hamburger {
   display: none;
@@ -138,7 +144,6 @@ input[type=checkbox]{
     background-position: center;
 }
 
-
 .download-btn{
   background-color: var(--turquoise);
   padding: 5px;
@@ -147,8 +152,7 @@ input[type=checkbox]{
   position: relative;
   top: 75%;
   left: 80%;
-  
-  
+   
 }
 .download-btn a {
   text-align: center;
@@ -173,7 +177,6 @@ input[type=checkbox]{
     flex-flow: row;
     text-align: left;
     margin-left: 25px;
-  
 }
 
 #about-me box {
@@ -207,15 +210,12 @@ input[type=checkbox]{
       margin: 25px;
   }
 
-
-
 .work-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     justify-content: center;
     margin: 1%;
-
   }
   
 .work-grid-container {
@@ -233,7 +233,6 @@ input[type=checkbox]{
     grid-row: 1 / span 8;
     text-align: right;
     padding-right: 10px;
-
   }
   
 .work-item-project.challenge-1-refactor {
@@ -275,7 +274,6 @@ input[type=checkbox]{
     padding-bottom: 15px;
     text-align: left;
     border: solid var(--GreenWhite);
-    
   }
   
 
@@ -287,6 +285,7 @@ input[type=checkbox]{
     margin-top: 60px;
     margin-right: 25px;
   }
+
   .span-background:hover {
     background-color: #052e2e;
     border-radius: 5px;
@@ -298,11 +297,11 @@ input[type=checkbox]{
     margin-top: px;
     margin-bottom: 5px;
   }
+
   .work-link-background p {
     font-size: 16px;
   }
 
-  
   .contact-me {
     padding: 2%;
     height: 150px;
@@ -350,29 +349,36 @@ input[type=checkbox]{
    text-align: center;
    padding: 16px 0;
   }
+    
   .menu li:hover {
    display: inline-block;
    background-color:#4c9e9e;
    transition: 0.3s ease;
   }
+    
   .menu li + li {
    margin-top: 12px;
   }
+    
   input[type=checkbox]:checked ~ .menu{
    display: block;
   }
+    
   .hamburger {
    display: block;
   }
+    
   .dropdown {
    left: 50%;
    top: 30px;
    transform: translateX(35%);
   }
+    
   .dropdown li:hover {
    background-color: #4c9e9e;
   }
   }
+
   /* APPLYING MEDIA QUERIES */
 @media (max-width: 768px) {
   .work-wrapper {
@@ -381,7 +387,6 @@ input[type=checkbox]{
     justify-content: space-around;
     justify-content: center;
     margin: 1%;
-
   }
   
 .work-grid-container {
@@ -389,8 +394,7 @@ input[type=checkbox]{
     display: grid;
     gap: 5px 5px; 
     grid-template-columns: 1fr repeat(1, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    
+    grid-template-rows: repeat(1, 1fr); 
   }
   
 .work-item.work-title {
@@ -441,7 +445,6 @@ input[type=checkbox]{
     padding-bottom: 15px;
     text-align: left;
     border: solid var(--GreenWhite);
-    
   }
   
 
@@ -455,13 +458,13 @@ input[type=checkbox]{
   }
     .background hover{
       background-color: #205d76;
-
     }
 
   .work-link h4 { 
     margin-top: 10px;
     margin-bottom: 10px;
   }
+    
   .work-link-background p {
     font-size: x-small;
   }
