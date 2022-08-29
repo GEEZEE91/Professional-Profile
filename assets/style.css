@@ -144,9 +144,10 @@ input[type=checkbox]{
   padding: 5px;
   font-size: 1rem;
   border-radius: 10px;
-  position: absolute;
-  top: 30%;
+  position: relative;
+  top: 75%;
   left: 80%;
+  
   
 }
 .download-btn a {
@@ -176,7 +177,6 @@ input[type=checkbox]{
 }
 
 #about-me box {
-  
     display: flex;
     flex-wrap: wrap;
     min-width: 200px;
@@ -185,20 +185,18 @@ input[type=checkbox]{
   }
 .box >* {
   flex: 1 1 70%;
-  margin: 20px;;
+  margin: 20px;
 }
 #box-1 {
   display: flex;
   background-color: #65064a4d;
-  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
 
 }
 #box-2 {
-    background-color:var(--turquoise);
-    min-width: 200px;
+    min-width: 150px;
     margin-left: 5px;
     align-content: center;
     margin-top: 22.5%;
